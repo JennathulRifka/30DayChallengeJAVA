@@ -16,7 +16,7 @@ public class Palindrome {
 
     public static void main(String[] args) {
         
-Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         // Ask user for input
         System.out.print("Enter a string: ");
