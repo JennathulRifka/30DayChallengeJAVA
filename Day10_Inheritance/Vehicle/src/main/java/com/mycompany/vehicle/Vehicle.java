@@ -38,5 +38,13 @@ class Vehicle {
         System.out.println("Max Speed: "+ maxSpeed);
         
     }
+    
+        public static void main(String[] args) {
+        Bike myBike = new Bike("Yamaha", "Blue", 2022, 180, "R15 V4", 155, false);
+        myBike.start();
+        myBike.displayInfo();
+        myBike.wheelie();
+        myBike.stop();
+    }
 }
 

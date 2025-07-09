@@ -34,12 +34,4 @@ class Bike extends Vehicle{
     public void wheelie() {
         System.out.println(modelName + " is popping a wheelie!️");
     }
-
-    public static void main(String[] args) {
-        Bike myBike = new Bike("Yamaha", "Blue", 2022, 180, "R15 V4", 155, false);
-        myBike.start();
-        myBike.displayInfo();
-        myBike.wheelie();
-        myBike.stop();
-    }
 }
