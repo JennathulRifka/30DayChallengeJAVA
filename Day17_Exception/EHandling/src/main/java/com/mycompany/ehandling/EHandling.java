@@ -6,7 +6,7 @@
 package com.mycompany.ehandling;
 
 import java.io.File;
-//import java.io.FileNotFoundException;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 /**
@@ -26,15 +26,15 @@ public static void main(String[] args) {
         }
 
         // File not found example
-//        try {
-//            File file = new File("MissingFile.txt"); // File likely doesn't exist
-//            Scanner scanner = new Scanner(file);
-//            while (scanner.hasNextLine()) {
-//                System.out.println(scanner.nextLine());
-//            }
-//            scanner.close();
-//        } catch (FileNotFoundException e) {
-//            System.out.println("Error: File not found!");
-//        }
+        try {
+            File file = new File("MissingFile.txt"); // File likely doesn't exist
+            Scanner scanner = new Scanner(file);
+            while (scanner.hasNextLine()) {
+                System.out.println(scanner.nextLine());
+            }
+            scanner.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("Error: File not found!");
+        }
     }
 }
