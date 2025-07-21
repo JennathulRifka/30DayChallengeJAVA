@@ -4,6 +4,11 @@
  */
 package com.mycompany.linearsearch;
 
+//import java.util.Arrays;
+
+import java.util.Arrays;
+
+
 /**
  *
  * @author SINGER
@@ -14,7 +19,7 @@ public class BinarySearch {
         int[] arr={10, 20, 30, 35, 40, 50, 60, 70};
         
         System.out.println(binarySearch(arr, 30));
-        
+        System.out.println(Arrays.binarySearch(arr, 60));
     }
     
     private static int binarySearch (int[] arr, int target){
